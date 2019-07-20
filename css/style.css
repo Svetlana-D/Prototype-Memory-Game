@@ -1,0 +1,51 @@
+/* HTML */
+html {
+    width: 100%;
+}
+
+/* Fonts
+$sans-serif: 'Raleway', sans-serif;
+$font-light: 300;
+$font-bold: 700; */
+
+/* Colors
+
+$black: #353535;
+$gray: #4f4f4f;
+$medium-gray: #737373;
+$light-gray: #c4c4c4;
+$orange: #f96855;
+
+$body-background: $black;*/
+
+/* Body */
+body {
+    background: #353535;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* body-in */
+
+/* Main Content area */
+.main-content {
+    /*flex: 1 1 80%;*/
+    min-height: 100vh;
+}
+
+.game {
+    display: grid;
+    height: 100%;
+    grid-template-rows: repeat(4, 150px);
+    grid-template-columns: repeat(4, 150px);
+    grid-gap: 20px;
+}
+
+
+.game-cards {
+    background: #f96855;
+   /* width: 100vw;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
